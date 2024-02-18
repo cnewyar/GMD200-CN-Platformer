@@ -9,7 +9,7 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField] private PlayerMovement playerMovement;
 
     private bool _facingRight = true;
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -18,11 +18,11 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_facingRight && rb.velocity.x < -0.1)
+        if (_facingRight && rb.velocity.x < -0.1)
         {
             Flip();
         }
-        else if(!_facingRight && rb.velocity.x > 0.1)
+        else if (!_facingRight && rb.velocity.x > 0.1)
         {
             Flip();
         }
