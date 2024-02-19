@@ -42,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Checkpoint
+    uniqueID: 1124188737
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
