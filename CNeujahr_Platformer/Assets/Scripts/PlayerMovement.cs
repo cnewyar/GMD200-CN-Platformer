@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        tr.emitting = false;
         _rb = GetComponent<Rigidbody2D>();
     }
 
